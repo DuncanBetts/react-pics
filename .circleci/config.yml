@@ -9,4 +9,4 @@ orbs:
     build:
       jobs:
         - cypress/run: # "run" job comes from "cypress" orb
-            build: 'npm start'
+            start: 'npm start'
